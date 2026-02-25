@@ -7,7 +7,16 @@ public class Main{
         System.out.println("Elija su opcion:");
         int opcion = sc.nextInt();
 
-        
+        while(opcion != 6){
+
+            switch (opcion) {
+                case 6:
+                    
+                    break;
+                default:
+                    throw new AssertionError();
+            }
+        }
 
     }
 }

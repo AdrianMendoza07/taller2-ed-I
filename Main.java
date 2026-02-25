@@ -10,12 +10,18 @@ public class Main{
         while(opcion != 6){
 
             switch (opcion) {
+                case 5:
+                    System.out.println("Ingrese el ID del cliente deseado: ");
+                    int idCliente = sc.nextInt();
+                    listarPedidos(idCliente);
+                    break;
                 case 6:
-                    
+                    System.out.println("Saliendo del programa");
                     break;
                 default:
                     throw new AssertionError();
             }
+            
         }
 
     }

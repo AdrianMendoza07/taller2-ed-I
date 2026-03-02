@@ -31,6 +31,12 @@ public class cliente {
         return active;
     }
 
+    public boolean setActive(boolean newActive){
+        this.active = newActive;
+        return active;
+    }
+
+    @Override
     public String toString(){
         return(id+","+ name+","+ lastName+","+ phone+","+ active);
     }
